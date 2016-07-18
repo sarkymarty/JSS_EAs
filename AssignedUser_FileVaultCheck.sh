@@ -29,11 +29,14 @@
 
 # - - - - - - - - - - - - - - - - SET REQUIRED VARIABLES HERE - - - - - - - - - - - - - - - - #
 
-JSS_URL=""
+# The JSS URL, minus "https://" but including any specified port numbers:
+JSS_URL="jss.mycompany.com:8443"
 
-API_Username=""
+# The username for an API user account in the JSS, only requiring read access:
+API_Username="USERNAME"
 
-API_Password=""
+# The password for the above specified API user account:
+API_Password="PASSWORD"
 
 # - - - - - - - - - - - - - - - - DO NOT EDIT BELOW THIS LINE - - - - - - - - - - - - - - - - #
 
